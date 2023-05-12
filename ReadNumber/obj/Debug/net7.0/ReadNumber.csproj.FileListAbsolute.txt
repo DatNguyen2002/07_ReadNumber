@@ -1,0 +1,15 @@
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\bin\Debug\net7.0\ReadNumber.exe
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\bin\Debug\net7.0\ReadNumber.deps.json
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\bin\Debug\net7.0\ReadNumber.runtimeconfig.json
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\bin\Debug\net7.0\ReadNumber.dll
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\bin\Debug\net7.0\ReadNumber.pdb
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ReadNumber.csproj.AssemblyReference.cache
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ReadNumber.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ReadNumber.AssemblyInfoInputs.cache
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ReadNumber.AssemblyInfo.cs
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ReadNumber.csproj.CoreCompileInputs.cache
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ReadNumber.dll
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\refint\ReadNumber.dll
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ReadNumber.pdb
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ReadNumber.genruntimeconfig.cache
+E:\Dat\Unity\GitHub\07_ReadNumber\ReadNumber\obj\Debug\net7.0\ref\ReadNumber.dll
