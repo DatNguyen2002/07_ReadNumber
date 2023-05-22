@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Readnumber
+namespace ReadNumber
 {
     class Program
     {
@@ -12,150 +12,43 @@ namespace Readnumber
 
             string resulst = "";
             int ones = num % 10;
-            int tens = (num % 100) / 10;
-            int hundreds = num / 100;
+            int tens = (num% 100)/10;
 
-            switch (hundreds)
+            switch (ones)
             {
                 case 1:
-                    resulst += "one hundred";
+                    resulst += "One";
                     break;
                 case 2:
-                    resulst += "two hundred";
+                    resulst += "two";
                     break;
                 case 3:
-                    resulst += "three hundred";
+                    resulst += "Three";
                     break;
                 case 4:
-                    resulst += "four hundred";
+                    resulst += "four";
                     break;
                 case 5:
-                    resulst += "five hundred";
+                    resulst += "Five";
                     break;
                 case 6:
-                    resulst += "six hundred";
+                    resulst += "Six";
                     break;
                 case 7:
-                    resulst += "seven hundred";
+                    resulst += "Seven";
                     break;
                 case 8:
-                    resulst += "eight hundred";
+                    resulst += "Eight";
                     break;
                 case 9:
-                    resulst += "nine hundred";
+                    resulst += "Nine";
                     break;
             }
-
-            if (hundreds > 0 && (tens > 0 || ones > 0))
+            if (num == 0 )
             {
-                resulst += " and ";
+                resulst ="Zero";
             }
-
-            switch (tens)
-            {
-                case 1:
-                    switch (ones)
-                    {
-                        case 0:
-                            resulst += "ten";
-                            break;
-                        case 1:
-                            resulst += "eleven";
-                            break;
-                        case 2:
-                            resulst += "twelve";
-                            break;
-                        case 3:
-                            resulst += "thirteen";
-                            break;
-                        case 4:
-                            resulst += "fourteen";
-                            break;
-                        case 5:
-                            resulst += "fifteen";
-                            break;
-                        case 6:
-                            resulst += "sixteen";
-                            break;
-                        case 7:
-                            resulst += "seventeen";
-                            break;
-                        case 8:
-                            resulst += "eighteen";
-                            break;
-                        case 9:
-                            resulst += "nineteen";
-                            break;
-                    }
-                    break;
-                case 2:
-                    resulst += "twenty";
-                    break;
-                case 3:
-                    resulst += "thirty";
-                    break;
-                case 4:
-                    resulst += "forty";
-                    break;
-                case 5:
-                    resulst += "fifty";
-                    break;
-                case 6:
-                    resulst += "sixty";
-                    break;
-                case 7:
-                    resulst += "seventy";
-                    break;
-                case 8:
-                    resulst += "eighty";
-                    break;
-                case 9:
-                    resulst += "ninety";
-                    break;
-            }
-
-            if (tens != 1 && ones > 0)
-            {
-                if (hundreds > 0 || tens > 0)
-                {
-                    resulst += " ";
-                }
-                switch (ones)
-                {
-                    case 1:
-                        resulst += "One";
-                        break;
-                    case 2:
-                        resulst += "two";
-                        break;
-                    case 3:
-                        resulst += "Three";
-                        break;
-                    case 4:
-                        resulst += "four";
-                        break;
-                    case 5:
-                        resulst += "Five";
-                        break;
-                    case 6:
-                        resulst += "Six";
-                        break;
-                    case 7:
-                        resulst += "Seven";
-                        break;
-                    case 8:
-                        resulst += "Eight";
-                        break;
-                    case 9:
-                        resulst += "Nine";
-                        break;
-                }
-                if (num == 0)
-                {
-                    resulst = "Zero";
-                }
-                Console.WriteLine(resulst);
-            }
+            Console.WriteLine(resulst);
         }
     }
 }
